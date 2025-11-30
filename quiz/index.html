@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moducon 2025 컨퍼런스 북 퀴즈</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <div id="quiz-header">
+            <h1>Moducon 2025 컨퍼런스 북 퀴즈</h1>
+        </div>
+        <div id="question-container" class="hide">
+            <div id="question">Question</div>
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">시작</button>
+            <button id="next-btn" class="next-btn btn hide">다음</button>
+        </div>
+        <div id="result-container" class="hide">
+            <h2>퀴즈 결과</h2>
+            <p>총 <span id="total-questions"></span>문제 중 <span id="score"></span>문제를 맞히셨습니다!</p>
+            <p id="result-message"></p>
+            <button id="restart-btn" class="btn">재도전</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
